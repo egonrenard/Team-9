@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.icons img{
+    max-height: 62px; /* Om de grote van onze menu icons te bepalen*/
+}
+
+.logo-icon {
+    margin-right: auto; /* Om het logo naar links te verplaatsen */
+    margin-left: 50px;
+}
+
+.logo-icon object {
+    fill: red;
+}
+
+.icons {
+    display: flex; /* Om de iconen in een rij te plaatsen */
+    list-style-type: none; /* Verwijder standaard lijstpuntjes */
+    padding: 0;
+}
+
+header {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /*  justify-content: space-between; /* Hiermee worden het logo en de iconen naar de uiteinden van de header geplaatst */
+}
+
+.logo-icon {
+    margin-right: auto; /* Om het logo naar links te verplaatsen */
+    margin-left: 50px;
+}
+
+.icons {
+    display: flex; /* Om de iconen in een rij te plaatsen */
+    list-style-type: none; /* Verwijder standaard lijstpuntjes */
+    padding: 0;
+}
+
+.logo-icon object {
+    fill: red;
+}
+
+.icons li {
+    margin-left: 10px; /* Optionele marge tussen de iconen */
+}
+
+.icons a {
+    display: inline-block; /* Optioneel, om de grootte van de objecten in te stellen */
+    margin-right: 100px;
+}
+
+.page-center {
+    flex-grow: 1; /* Om de .page-center-div flexibel te maken en de iconen in het midden te positioneren */
+    display: flex;
+    justify-content: center; /* Om de iconen in het midden van de pagina te plaatsen */
+}
+
+footer{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
